@@ -2,9 +2,19 @@
     width: 120px;
     height: auto;
     border-radius: 8px;
-    
+    margin-top: 0;
 }
 header {
+    display: grid;
+    justify-self: start;
+    /* text-align: r; */
+    grid-template-columns:auto 40px 1fr ;
+    /* direction: rtl; */
+    align-items: center;
+    border: 1px dashed hotpink;
     
-    text-align: center;
+
+    
 }
+
+
