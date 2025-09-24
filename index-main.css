@@ -1,20 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
 .logo {
-    width: 120px;
+    width: 70px;
     height: auto;
     border-radius: 8px;
     margin-top: 0;
-}
-header {
-    display: grid;
-    justify-self: start;
-    /* text-align: r; */
-    grid-template-columns:auto 40px 1fr ;
-    /* direction: rtl; */
-    align-items: center;
-    border: 1px dashed hotpink;
     
+}
 
+
+header {
+    /* display: grid;
+    justify-self: start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto auto repeat(2, 1fr);
+    height: 8em;
+    width: auto;
+    align-items: center;
+    border: 1px dashed hotpink; */
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255);
 }
+
 
 
