@@ -2,31 +2,37 @@ body {
     background-color: rgb(255, 255, 255);
 }
 .logo {
-    width: 70px;
+    width: 80px;
     height: auto;
     border-radius: 8px;
     margin-top: 0;
     
 }
 
-
-header {
-    /* display: grid;
-    justify-self: start;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row: auto auto repeat(2, 1fr);
-    height: 8em;
-    width: auto;
-    align-items: center;
-    border: 1px dashed hotpink; */
-    
+header {    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 40px;
     padding: 8px 16px;
     background-color: rgb(255, 255, 255);
+
 }
 
+.about-btn {
+     padding: 8px 16px;
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;  
+    font-weight: bold;
+    transition: background 0.2s;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end;  */
 
+}
 
+.about-btn:hover {
+    background: #959794;
+}
