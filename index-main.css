@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(192, 189, 189);
 }
 .logo {
     width: 80px;
@@ -8,14 +8,24 @@ body {
     margin-top: 0;
     
 }
-
+.produkt {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em
+}
+.TP-kamera {
+    width: 200px;
+    margin-top: 3em;
+    margin-left: 18px;
+    border-radius: 8px;
+}
 header {    
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 40px;
     padding: 8px 16px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(126, 125, 125);
 
 }
 
@@ -27,12 +37,15 @@ header {
     text-decoration: none;  
     font-weight: bold;
     transition: background 0.2s;
-    /* display: flex;
-    align-items: center;
-    justify-content: flex-end;  */
-
 }
 
 .about-btn:hover {
-    background: #959794;
+    background: #3c5bbe;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    
 }
