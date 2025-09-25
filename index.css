@@ -21,6 +21,7 @@ header {
     padding: 8px 16px;
     background-color: var(--headergray);
     font-size: 1em;
+<<<<<<< HEAD
     position: fixed;
     width: 100%;
 }
@@ -32,6 +33,9 @@ header {
  }
 .main-page {
     flex: 1;
+=======
+    margin-bottom: 2em;
+>>>>>>> cd33882f7d0e8555c094016e95e35eea22749152
 }
 
 body {
