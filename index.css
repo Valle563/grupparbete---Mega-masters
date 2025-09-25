@@ -21,7 +21,6 @@ header {
     padding: 8px 16px;
     background-color: var(--headergray);
     font-size: 1em;
-<<<<<<< HEAD
     position: fixed;
     width: 100%;
 }
@@ -33,9 +32,6 @@ header {
  }
 .main-page {
     flex: 1;
-=======
-    margin-bottom: 2em;
->>>>>>> cd33882f7d0e8555c094016e95e35eea22749152
 }
 
 body {
@@ -120,7 +116,7 @@ body {
 }
 .footer-info h4 {
     
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
     font-size: 1.2rem;
     display: flex;
     align-items: flex-end;
