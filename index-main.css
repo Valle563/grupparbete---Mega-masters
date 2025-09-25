@@ -1,3 +1,15 @@
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
 body {
     background-color: rgb(204, 200, 200);
 }
@@ -26,7 +38,6 @@ body {
     max-width: 200px;
     height: auto;
     flex: 1 1 auto;
-    
     border-radius: 8px;
 }
 
