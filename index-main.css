@@ -1,7 +1,10 @@
 
-
-
-
+:root{
+    --headergray: rgb(148, 146, 146);
+    --bodylight: rgb(204, 200, 200);
+    --buttonblue: #3c5bbe;
+    --borderdark: #0000;
+}
 
 
 * {
@@ -11,7 +14,7 @@
 }
 
 body {
-    background-color: rgb(204, 200, 200);
+    background-color: var(--bodylight);
 }
 .logo {
     width: 80px;
@@ -47,7 +50,7 @@ header {
     justify-content: flex-start;
     gap: 40px;
     padding: 8px 16px;
-    background-color: rgb(148, 146, 146);
+    background-color: var(--headergray)
 
 }
 
@@ -62,12 +65,12 @@ header {
 }
 
 .about-btn:hover {
-    background: #3c5bbe;
+    background: var(--buttonblue);
 }
 
 .footer {
     display: flex;
     justify-content: center;
     flex-direction: center;
-    
+    background-color: var(--buttonblue);
 }
