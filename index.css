@@ -34,6 +34,8 @@ body {
     margin-top: 0;
     
 }
+
+
 .produkt {
     display: flex;
     justify-content: center;
@@ -45,6 +47,7 @@ body {
     gap: 200px;
     flex-wrap: wrap;
     justify-content: center;
+   
 }
 
 .image-container img {
@@ -78,4 +81,20 @@ body {
     /* border: 1px black solid; */
     background-color: var(--headergray);
     margin-top: 3em;
+    position: bottom;
+   
 }
+
+/* @media ((min-width: 521px) (max-width: 767px)) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 520px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
