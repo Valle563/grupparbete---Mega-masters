@@ -10,17 +10,18 @@
 * {
     padding: 0;
     margin: 0;
-    
+    font-family: sans-serif;
 }
 
 header {    
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 40px;
     padding: 8px 16px;
-    background-color: var(--headergray)
-
+    background-color: var(--headergray);
+    font-size: 1em;
+    
 }
 
 
@@ -32,14 +33,15 @@ body {
     height: auto;
     border-radius: 8px;
     margin-top: 0;
-    
 }
 
 
 .produkt {
     display: flex;
     justify-content: center;
-    margin-top: 3em
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
 }
 
 .image-container {
@@ -47,7 +49,7 @@ body {
     gap: 200px;
     flex-wrap: wrap;
     justify-content: center;
-   
+    flex-grow: 1;
 }
 
 .image-container img {
@@ -60,17 +62,32 @@ body {
 
 
 .about-btn {
-     padding: 8px 16px;
+    padding: 8px 16px;
     background: #222;
     color: #fff;
     border-radius: 4px;
     text-decoration: none;  
     font-weight: bold;
     transition: background 0.2s;
+    
 }
 
 .about-btn:hover {
     background: var(--buttonblue);
+}
+
+.buttons {
+   display: flex;
+   justify-content: flex-end;
+   gap: 2em;
+}
+
+
+.tapo-kamera {
+    margin-top: 10em;
+    margin-left: 3em;
+    font-size: 20px;
+    
 }
 
 .footer {
@@ -78,13 +95,11 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    /* border: 1px black solid; */
     background-color: var(--headergray);
     margin-top: 3em;
     position: bottom;
    
 }
-
 /* @media ((min-width: 521px) (max-width: 767px)) {
     .image-container {
         flex-direction: column;
