@@ -95,6 +95,7 @@ header h1 {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     place-items: center;
+
 }
 
 .image-container img {
@@ -102,14 +103,13 @@ header h1 {
     width: 100%;
     max-width: 200px;
     height: auto;
-    
     border-radius: 8px;
 }
 
-.tapo-kamera {
-    margin-top: 7em;
-    margin-left: 3em;
-    margin-bottom: 5em;
+.tapo-kamera{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5em 1.5em;
     font-size: 20px;
 }
 
@@ -134,16 +134,23 @@ footer {
     header h1 {
         font-size: x-large;
     }
-    .tapo-kamera {
-        margin-top: 7em;
-        margin-left: 1.2em;
-        margin-bottom: 5em;
-        font-size: 20px;
-    }
     footer{
         grid-template-columns: 1fr;
         justify-items: start;
         align-items: center;   
     }
-
+    .image-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        place-items: center;
+        gap: 20px;
+    }
+    .image-container img {
+        display: block;
+        /* width: 100%;
+        max-width: 200px; */
+        /* height: auto; */
+        border-radius: 8px;
+    }
 }
