@@ -1,12 +1,1 @@
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1em;
-    background-color: var(--headergray);
-}
-.footer-info h4 {
-    font-size: 1.2rem;
-    display: flex;
-    align-items: flex-end;
-}

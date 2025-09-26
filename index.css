@@ -13,27 +13,6 @@
     font-family: sans-serif;
 }
 
-header {    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 8px 16px;
-    background-color: var(--headergray);
-    font-size: 1em;
-    position: fixed;
-    width: 100%;
-}
- .p-tag {
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3em;
- }
-.main-page {
-    flex: 1;
-}
-
 body {
     background-color: var(--bodylight);
     display: flex;
@@ -43,69 +22,95 @@ body {
     margin: 0;
     min-height: 100vh;
 }
+    
+header {
+    background-color: var(--headergray);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 
+}
 
+header h1 {
+    white-space: nowrap; /*förbjuder radbrytning i h1 "AI"*/
+    justify-self: center; /*centrerar horisontellt i sin grid*/
+
+}
+    
+.nav {
+    grid-auto-flow: column;
+    display: grid;
+    padding: 0 20px;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    
+}
 .logo {
     width: 80px;
     height: auto;
     border-radius: 8px;
     margin-top: 0;
-}
-
-
-.produkt {
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-    margin-bottom: 1em;
-    
-}
-
-.image-container {
-    display: flex;
-    gap: 200px;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-grow: 1;
-}
-
-.image-container img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    flex: 1 1 auto;
-    border-radius: 8px;
-}
-
+    }
 
 .about-btn {
-    padding: 8px 16px;
     background: #222;
     color: #fff;
     border-radius: 4px;
     text-decoration: none;  
     font-weight: bold;
     transition: background 0.2s;
-    
+    display: grid;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-btn:hover {
     background: var(--buttonblue);
 }
 
-.buttons {
-   display: flex;
-   justify-content: flex-end;
-   gap: 2em;
+ .p-tag {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+ }
+
+.main-page {
+    flex: 1;
 }
 
+.produkt {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    place-items: center;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    
+    border-radius: 8px;
+}
 
 .tapo-kamera {
     margin-top: 7em;
     margin-left: 3em;
     margin-bottom: 5em;
     font-size: 20px;
-    
 }
 
 footer {
@@ -120,17 +125,25 @@ footer {
     align-items: flex-end;
 }
 
-
-/* @media ((min-width: 521px) (max-width: 767px)) {
-    .image-container {
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 500px) {
+    header{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;   
+    }
+    header h1 {
+        font-size: x-large;
+    }
+    .tapo-kamera {
+        margin-top: 7em;
+        margin-left: 1.2em;
+        margin-bottom: 5em;
+        font-size: 20px;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        justify-items: start;
+        align-items: center;   
     }
 
 }
-@media (max-width: 520px) {
-    .image-container {
-        flex-direction: column;
-        align-items: center;
-    }
-} */
