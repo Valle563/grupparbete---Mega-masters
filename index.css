@@ -47,6 +47,7 @@ header h1 {
     gap: 20px;
     
 }
+
 .logo {
     width: 80px;
     height: auto;
@@ -149,4 +150,4 @@ footer {
         display: block;
         border-radius: 8px;
     }
-}
+} 
