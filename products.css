@@ -4,11 +4,9 @@
     display: flex;
     flex-wrap: wrap;
 
-    /* flex-direction: column;
-    justify-content: flex-start; */
-
     align-items: center;
     gap: 3em;
+    margin-top: 3em;
 
     /* border: dashed 1px pink; */
 }
@@ -19,12 +17,6 @@
     align-content: center;
 }
 
-/* .add2cart {
-    width: 0.5em;
-    height: 0.2em;
-    border: 1px var(--borderdark) solid;
-    padding: 0.2em;
-} */
 
 .article1 {
     list-style-type: inside;
