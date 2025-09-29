@@ -1,5 +1,22 @@
 .bolag {
     display: grid;
-    align-items: flex-end;
+    justify-content: center;
+}
+
+.person-kort {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.peron{
+    display: grid;
+    justify-content: center;
+    align-items: center;
     
+}
+.about-section {
+    text-align: center;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
 }
