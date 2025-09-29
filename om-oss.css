@@ -3,7 +3,11 @@
     display: grid;
     text-align: center;
     padding: 2% 5%;
-
+    max-width: 90ch;
+    margin-inline: auto;
+}
+.bolag h2 {
+    padding-bottom: 2%;
 }
 
 
@@ -20,10 +24,22 @@
 }
 
 .person p{
-    /* padding: 2% 5%; */
-    max-width: 30ch;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 50ch;
+    margin-inline: auto;
+    padding-bottom: 4%;
 }
 
 .person h4{
-    padding-top: 2%;
+    padding: 2% 0%;
+
+}
+@media (max-width: 975px) {
+    .person-kort {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
