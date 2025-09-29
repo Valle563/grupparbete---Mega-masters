@@ -24,3 +24,16 @@
     display: inline-block;
     line-height: 1.7;
 }
+
+.c500 {
+    padding-bottom: 3em
+} 
+
+@media (max-width: 550px) {
+    .products {
+        flex: 1 0 33%;
+        text-align: center;
+        align-content: center;
+    }   
+    
+}
