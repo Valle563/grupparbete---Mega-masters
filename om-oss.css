@@ -1,24 +1,28 @@
+
 .bolag {
     display: grid;
     text-align: center;
-    padding: 5% 0%;
-    
+    padding: 2% 5%;
+
 }
 
-.about-section {
-    text-align: center;
-    max-width: 900px;
-    padding-bottom: 5%;
-}
 
 .person-kort {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-
+    padding: 2% 5%;
 }
 
 
 .person img {
     display: inline-block;
+}
+
+.person p{
+    padding: 2% 5%;
+}
+
+.person h4{
+    padding-top: 2%;
 }
